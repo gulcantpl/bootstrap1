@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Products</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Müzik Dükkanım</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Ürünler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h2 class="mb-4">Products</h2>
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="Ürün 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 1</h5>
+                        <p class="card-text">Başlangıç seviye Arp.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 1000₺</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDJaUJinYvbSTiRQEHct0YHuhpYxHSo_R5g&s"
+                        class="card-img-top" alt="Ürün 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 2</h5>
+                        <p class="card-text">Başlangıç seviye fülüt</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 1500₺</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6iffut7brCDLNKdeIXFUN8xMEG6FIO2chUw&s"
+                        class="card-img-top" alt="Ürün 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 3</h5>
+                        <p class="card-text">Ney çalmaya başlamak isteyenler için birebir!</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 2000₺</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </nav>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5RYLf1V7DXYliRW7WHSG5q7AZwdEZ4hBxWg&s"
+                        class="card-img-top" alt="Ürün 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 1</h5>
+                        <p class="card-text">Yüksek kaliteli, dayanıklı klasik gitar. Yeni başlayanlar için ideal</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 1000₺</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgi8GpM8zrv5qzrepnEaMMuWdf9O4-BmuoiA&s"
+                        class="card-img-top" alt="Ürün 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 2</h5>
+                        <p class="card-text">Portatif, hafif dijital piyano, konser ve ev kullanımı için uygun.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 1500₺</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrv6OMRjnJG1-j7GAZuLoXPSZOUviRa0za_A&s"
+                        class="card-img-top" alt="Ürün 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Müzik Aleti 3</h5>
+                        <p class="card-text">Profesyonel davul seti, kaliteli ses ve dayanıklı malzeme.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Satın Al</a>
+                    <div class="card-footer">
+                        <small class="text-muted">Fiyat: 2000₺</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">© 2025 Gülcan. Tüm hakları saklıdır.</p>
+        <p class="mb-0">
+            <a href="index.html" class="text-white mx-2">Anasayfa</a> |
+            <a href="products.html" class="text-white mx-2">Ürünler</a> |
+            <a href="about-us.html" class="text-white mx-2">Hakkımızda</a>
+        </p>
+    </div>
+</footer>
+
+
+</html>
